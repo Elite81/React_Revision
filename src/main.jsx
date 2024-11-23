@@ -4,12 +4,20 @@ import './index.css'
 import App from './App.jsx'
 import Counter from './counter.jsx'
 import CounterFunction from './CounterFunction.jsx'
+import Calculate from './calculate.jsx'
+import FunctionCalculate from './FunctionCalculate.jsx'
+import FunctionTasks from './functionTasks.jsx'
+import FlashCard from './FlashCard.jsx'
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    {/* <App />
     <Counter />
-    <CounterFunction/>
+    <CounterFunction />
+    <Calculate /> 
+    <FunctionCalculate />
+    <FunctionTasks/> */}
+    <FlashCard/>
     
   </StrictMode>
 );
